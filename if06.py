@@ -6,4 +6,30 @@ def main(n):
     Returns:
         int: return answer.
     """
-    return
+    n1 = n % 10
+    n //= 10
+    n2 = n % 10
+    n //= 10
+    n3 = n % 10
+    n //= 10
+    n4 = n % 10
+    n //= 10
+    n5 = n % 10
+    max = n1
+    ans = 1
+    if n2 > max:
+        max = n2
+        ans = 2
+    elif n3 > max:
+        max = n3
+        ans = 3
+    elif n4 > max:
+        max = n4
+        ans = 4
+    elif n5 > max:
+        max = n5
+        ans = 5
+    return ans
+
+
+print(main(97654))
