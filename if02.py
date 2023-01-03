@@ -1,4 +1,4 @@
-def main(a,b,c):
+def main(a, b, c):
     """
     Find the smallest of the numbers.
     Args:
@@ -8,4 +8,14 @@ def main(a,b,c):
     Returns:
         int: return answer.
     """
-    return
+    if a < b:
+        if a < c:
+            return a
+        return c
+    if b < a:
+        if b < c:
+            return b
+        return c
+
+
+print(main(9, 7, 1))
