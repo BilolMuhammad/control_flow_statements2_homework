@@ -27,5 +27,5 @@ def main(n):
     return max
 
 
-print(main(43819))
-print(main(72198))
+print(main(43811))
+print(main(72128))
