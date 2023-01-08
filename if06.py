@@ -16,7 +16,7 @@ def main(n):
     n //= 10
     n5 = n % 10
     max = n1
-    ans = 5
+    ans = 1
     if n2 > max:
         max = n2
         ans = 2
@@ -32,4 +32,4 @@ def main(n):
     return ans
 
 
-print(main(97654))
+print(main(76548))
