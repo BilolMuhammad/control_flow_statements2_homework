@@ -18,11 +18,11 @@ def main(n):
     max = n1
     if n2 > max:
         max = n2
-    elif n3 > max:
+    if n3 > max:
         max = n3
-    elif n4 > max:
+    if n4 > max:
         max = n4
-    elif n5 > max:
+    if n5 > max:
         max = n5
     return max
 
