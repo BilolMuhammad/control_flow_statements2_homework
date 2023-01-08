@@ -16,19 +16,19 @@ def main(n):
     n //= 10
     n5 = n % 10
     max = n1
-    ans = 1
+    ans = 5
     if n2 > max:
         max = n2
-        ans = 2
-    elif n3 > max:
+        ans = 4
+    if n3 > max:
         max = n3
         ans = 3
-    elif n4 > max:
+    if n4 > max:
         max = n4
-        ans = 4
-    elif n5 > max:
+        ans = 2
+    if n5 > max:
         max = n5
-        ans = 5
+        ans = 1
     return ans
 
 
