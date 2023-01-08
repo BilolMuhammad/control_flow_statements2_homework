@@ -19,16 +19,16 @@ def main(n):
     ans = 5
     if n2 > max:
         max = n2
-        ans = 4
+        ans = 2
     if n3 > max:
         max = n3
         ans = 3
     if n4 > max:
         max = n4
-        ans = 2
+        ans = 4
     if n5 > max:
         max = n5
-        ans = 1
+        ans = 5
     return ans
 
 
